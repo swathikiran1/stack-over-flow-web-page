@@ -1,31 +1,65 @@
-.tab-item-container {
-  padding-right: 4px;
+.tab-container {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  margin-bottom: 15px;
 }
 
-@media screen and (min-width: 992px) {
-  .tab-item-container {
-    padding-right: 24px;
-  }
+.question {
+  border-width: 0px;
+  border: solid transparent;
+  border-left-color: orange;
+  border-left-width: 5px;
+  margin-right: 20px;
 }
 
-.tab-btn {
-  font-family: 'Roboto';
-  color: #9aa5b1;
-  font-weight: 500;
+.tab-icon {
+  color: #64748b;
+  height: 20px;
+  width: 20px;
+  margin-right: 20px;
+}
+
+.icon {
+  height: 25px;
+  width: 25px;
+}
+
+.tab-icon1 {
+  color: orange;
+}
+
+.tab-name {
+  color: #64748b;
   font-size: 16px;
-  background-color: transparent;
-  outline: none;
-  border: none;
-  cursor: pointer;
+  font-family: 'Roboto';
+  font-weight: 400;
 }
 
-@media screen and (min-width: 992px) {
-  .tab-btn {
-    font-size: 24px;
-  }
+.tab-name1 {
+  color: #000000;
+  font-weight: 600;
 }
 
-.active-tab-btn {
-  border-bottom: 2px solid #0b69ff;
-  color: #3e4c59;
+.new {
+  align-self: flex-start;
+  color: orange;
+  font-size: 13px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-bottom: 40px;
+  height: 16px;
+}
+
+.count {
+  text-align: center;
+  color: orange;
+  padding: 2px;
+  font-size: 16px;
+  font-weight: 600;
+  border: solid 1px black;
+  border-radius: 12px;
+  margin-left: 8px;
+  width: 35px;
 }
