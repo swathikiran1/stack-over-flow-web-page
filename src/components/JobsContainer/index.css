@@ -1,0 +1,27 @@
+.jobs-container {
+  background-color: hsla(40, 30%, 96%, 0.998);
+  height: 100vh;
+  min-width: 350px;
+  padding: 15px;
+  padding-left: 40px;
+  padding-top: 40px;
+  border: solid 1px #bfcada;
+}
+
+.heading {
+  color: #64748b;
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+li {
+  list-style-type: none;
+}
+
+.job-name {
+  color: #056dfe;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
