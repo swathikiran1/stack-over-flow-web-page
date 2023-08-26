@@ -1,5 +1,6 @@
 .questions-container {
   margin-top: 100px;
+  padding-left: 0px;
 }
 
 .heading {
@@ -7,10 +8,18 @@
   font-size: 25px;
   font-family: 'Roboto';
   font-weight: 500;
+  margin-bottom: 80px;
 }
 
-.question-container {
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+#question-container {
   display: flex;
+  margin-left: 0px;
+  margin-top: 20px;
 }
 
 .question1 {
