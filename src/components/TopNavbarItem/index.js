@@ -16,11 +16,11 @@ const TopNavItem = () => (
     </div>
     <div className="profile-container">
       <div className="container">
-        <IoIosHelpBuoy className="icon" />
+        <IoIosHelpBuoy className="icon1" id="icon2" />
         <p className="help">Help</p>
       </div>
       <div className="container">
-        <MdOutlineMonitor className="icon" />
+        <MdOutlineMonitor className="icon1" />
         <p className="help">Tour</p>
       </div>
       <div>
@@ -29,7 +29,7 @@ const TopNavItem = () => (
           className="profile-pic"
           alt="profile-pic"
         />
-        <MdKeyboardArrowDown className="icon icon1" />
+        <MdKeyboardArrowDown className="icon icon3" />
       </div>
     </div>
   </div>

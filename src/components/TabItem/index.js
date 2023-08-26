@@ -35,7 +35,7 @@ const TabItem = () => (
       <p className="tab-name">BADGES</p>
     </li>
     <li className="tab-container">
-      <TbSpeakerphone className="tab-icon icon" />
+      <TbSpeakerphone className="tab-icon" id="icon" />
       <p className="tab-name">ASK QUESTION</p>
     </li>
     <li className="tab-container">
@@ -43,7 +43,7 @@ const TabItem = () => (
       <p className="tab-name">STACK EXCHANGE</p>
     </li>
     <li className="tab-container">
-      <HiInbox className="tab-icon icon" />
+      <HiInbox className="tab-icon" id="icon" />
       <p className="tab-name">INBOX</p>
       <p className="count">24</p>
     </li>
