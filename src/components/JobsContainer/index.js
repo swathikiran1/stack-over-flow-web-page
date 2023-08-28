@@ -66,9 +66,10 @@ const JobsContainer = () => (
         <JobItem jobDetails={eachItem} />
       ))}
     </ul>
-    <p className="view-jobs">
-      VIEW ALL JOBS <FiChevronRight />
-    </p>
+    <div className="view-jobs-container">
+      <p className="view-jobs">VIEW ALL JOBS</p>
+      <FiChevronRight id="arrow" />
+    </div>
     <NetworkQuestions />
   </div>
 )

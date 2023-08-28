@@ -1,0 +1,30 @@
+.technologiesList1 {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+  margin-top: 40px;
+}
+
+.technologiesList2 {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.technology1 {
+  margin-top: 42px;
+  margin-bottom: 20px;
+  color: #64748b;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.technology2 {
+  margin-bottom: 20px;
+  color: #64748b;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}

@@ -1,6 +1,7 @@
 .questions-container {
   margin-top: 100px;
   padding-left: 0px;
+  margin-bottom: 80px;
 }
 
 .heading {
@@ -14,6 +15,11 @@
 ul {
   list-style-type: none;
   padding-left: 0px;
+}
+
+#list {
+  min-width: 70%;
+  max-width: 80%;
 }
 
 #question-container {
@@ -34,4 +40,25 @@ ul {
   height: 23px;
   width: 30px;
   margin-right: 10px;
+}
+
+#view-jobs-container1 {
+  display: flex;
+  align-items: center;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.view-jobs {
+  color: #056dfe;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-left: 0px;
+  margin-right: 5px;
+}
+
+#arrow {
+  color: #056dfe;
+  font-weight: 500;
 }

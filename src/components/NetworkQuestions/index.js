@@ -1,3 +1,4 @@
+import {FiChevronRight} from 'react-icons/fi'
 import './index.css'
 
 const questionsList = [
@@ -38,7 +39,7 @@ const questionsList = [
 const NetworkQuestions = () => (
   <div className="questions-container">
     <h1 className="heading">Network questions</h1>
-    <ul>
+    <ul id="list">
       {questionsList.map(eachItem => (
         <li>
           <div id="question-container">
@@ -49,6 +50,10 @@ const NetworkQuestions = () => (
         </li>
       ))}
     </ul>
+    <div id="view-jobs-container1">
+      <p className="view-jobs">VIEW ALL JOBS</p>
+      <FiChevronRight id="arrow" />
+    </div>
   </div>
 )
 
